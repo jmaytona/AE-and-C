@@ -68,6 +68,7 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Request Form</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script" rel="stylesheet">
@@ -84,26 +85,26 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html #home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php #home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html #section-events">Events</a>
+                        <a class="nav-link" href="index.php #section-events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html #section-catering">Catering</a>
+                        <a class="nav-link" href="index.php #section-catering">Catering</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html #section-gallery">Gallery</a>
+                        <a class="nav-link" href="index.php #section-gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html #section-about">About Us</a>
+                        <a class="nav-link" href="index.php #section-about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Offers</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="request-page.php">Request Order</a>
-                            <a class="dropdown-item" href="#">Packages</a>
-                            <a class="dropdown-item" href="#">Designs</a>
+                            <a class="dropdown-item" href="package-page.php">Packages</a>
+                            <a class="dropdown-item" href="design-page.php">Designs</a>
                         </div>
                     </li>
                 </ul>
@@ -139,11 +140,26 @@
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </form>
-
-
-
+            <br>
         </div>
 
+
+        <footer class="footer bg-inverse">
+            <div class="footer-bg">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="footer-img-wrapper">
+                            <br>
+                            <p class="text-center">Aytona Events & Catering Copyright &copy; 2017</p>
+                            <a href="https://www.facebook.com/aytonaeventsandcatering/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

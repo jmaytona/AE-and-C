@@ -48,16 +48,14 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Offers</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="request-page.php">Request Order</a>
-                        <a class="dropdown-item" href="#">Packages</a>
-                        <a class="dropdown-item" href="#">Designs</a>
+                        <a class="dropdown-item" href="package-page.php">Packages</a>
+                        <a class="dropdown-item" href="design-page.php">Designs</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
 
-
-    <div class="container-fluid">
         <!--Section 1-->
         <section id="section-home">
             <div class="section-1-back">
@@ -211,15 +209,15 @@
 
             <div class="row">
                 <div class="col-sm-12 col-md-4">
-                    <a href="#"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
+                    <a href="video-page.php"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
                     <h2 class="gallery-hdr">Videos</h2>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <a href="#"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
+                    <a href="picture-page.php"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
                     <h2 class="gallery-hdr">Pictures</h2>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <a href="#"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
+                    <a href="post-page.php"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
                     <h2 class="gallery-hdr">Posts</h2>
                 </div>
             </div>
@@ -243,40 +241,39 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-8">
                                 <p>AYTONA EVENTS & CATERING is dedicated to servicing customers by organizing events, occasions and providing excellent food service.</p>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-8">
                                 <p>The company aims to bring happiness to people by rejoicing life's simple and small moments such as Gender Announcements, Bridal showers, Baby showers, Monthsaries and Anniversaries, Single's Night Out, Pajamas parties, Surprise parties, 1st schooling celebrations, Graduations, Valentines Night-out, Weigh-in achievements, Successes and Milestones, and more.</p>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-8">
                                 <p>We want the Filipino people to be able to celebrate these simple and fleeting moments and make it as memorable as it should be. This way we can improve people's social interactions and quality of life, thereby spreading positivity and lessening the growth of angst and depression that is spreading nowadays in the society.</p>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                             </div>
                         </div>
-
+                        <br>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
 
     <!-- Modals-->
 
@@ -498,14 +495,12 @@
     </div>
 
     <footer class="footer bg-inverse">
-        <div class="container-fluid">
             <div class="footer-bg">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="footer-img-wrapper">
-                            <div class="col-sm-12">
-                                <img class="footer-img" src="assets/logo3.png">
-                            </div>
+                            <br>
+                            <p class="text-center">Aytona Events & Catering Copyright &copy; 2017</p>
                             <a href="https://www.facebook.com/aytonaeventsandcatering/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
@@ -514,7 +509,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
 
 
