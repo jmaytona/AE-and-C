@@ -22,7 +22,7 @@
 
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="assets/logo2.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,14 @@
                         <a class="nav-link" href="index.php #section-about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Offers</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Others</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="request-page.php">Request Order</a>
                             <a class="dropdown-item" href="package-page.php">Packages</a>
-                            <a class="dropdown-item" href="design-page.php">Designs</a>
+                            <a class="dropdown-item" href="event-page.php">Upcoming Events</a>
+                            <a class="dropdown-item" href="picture-page.php">Pictures</a>
+                            <a class="dropdown-item" href="video-page.php">Videos</a>
+                            <a class="dropdown-item" href="post-page.php">Post</a>
                         </div>
                     </li>
                 </ul>
@@ -62,9 +65,84 @@
         <div class="col-sm-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Packages</h1>
-                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+                    <h1 class="display-4">Managed Buffet:</h1>
+                    <p class="lead">All Sets offer unlimited drinks (Ice tea or Lemonade).Add-ons are not included.</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="assets/logo2.png">
+                </div>
+                <br>
+                <label class="label-menu">Set A Php 400.00 per head</label>
+                <ul class="menu">
+                    <li>4 Main Dish of your choice</li>
+                    <li>1 Vegetable</li>
+                    <li>1 Soup</li>
+                    <li>2 Appetizer</li>
+                    <li>2 Kinds of Dessert</li>
+                    <li>1 Pasta</li>
+                    <li>Unli Rice</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="assets/logo2.png">
+                </div>
+                <br>
+                <label class="label-menu">Set B Php 350.00 per head</label>
+                <ul class="menu">
+                    <li>3 Main Dish of your choice</li>
+                    <li>1 Vegetable</li>
+                    <li>1 Soup</li>
+                    <li>2 Appetizer</li>
+                    <li>2 Kinds of Dessert</li>
+                    <li>1 Pasta</li>
+                    <li>Unli Rice</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="assets/logo2.png">
+                </div>
+                <br>
+                <label class="label-menu">Set C Php 300.00 per head</label>
+                <ul class="menu">
+                    <li>3 Main Dish of your choice</li>
+                    <li>1 Vegetable</li>
+                    <li>1 Soup</li>
+                    <li>Dessert or Appetizer</li>
+                    <li>1 Pasta</li>
+                    <li>Unli Rice</li>
+                    <br>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="wrap-center">
+                <h3 class="label-menu">Additional Services:</h3>
+                <ul class="menu">
+                    <li> Tables and Chairs(Price depends on the number of guest)</li>
+                    <li> Chocolate fountain(Php 3,000.00)</li>
+                    <li> Craving Station(Php 500.00)</li>
+                    <li> Free Themes</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -78,14 +156,15 @@
                         <br>
                         <p class="text-center">Aytona Events & Catering Copyright &copy; 2017</p>
                         <a href="https://www.facebook.com/aytonaeventsandcatering/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
 
 
     <!-- Optional JavaScript -->
@@ -98,6 +177,23 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
 
+    <!--  Animation -->
+    <script>
+        window.sr = ScrollReveal()
+        sr.reveal('.jumbotron', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.box', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.wrap-center', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+
+    </script>
 </body>
 
 </html>

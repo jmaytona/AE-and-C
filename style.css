@@ -13,6 +13,23 @@ body {
     margin-top: 10px;
 
 }
+.post-hdr{
+  text-align: center;
+}
+
+.event-pic {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+img.post-pic {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
 
 .event-pic-1 {
     height: 270px;
@@ -23,10 +40,6 @@ body {
     border-radius: 50%;
     overflow: hidden;
 
-}
-
-div.lightMode {
-    background-color: #eceeef;
 }
 
 .carousel-inner {
@@ -45,7 +58,7 @@ div.section-1-back::after {
     bottom: 0;
     right: 0;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     position: absolute;
     margin left: 0;
     z-index: -1;
@@ -68,6 +81,20 @@ div.section-3-back::after {
 div.section-5-back::after {
     content: "";
     background: url(assets/collage.jpg);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+div.section-event-back::after {
+    content: "";
+    background: url(assets/set3.jpg);
     opacity: 0.4;
     top: 0;
     left: 0;
@@ -103,6 +130,13 @@ button.section-2-btn {
     display: block;
     border-radius: 50%;
 }
+.event-img {
+    margin: auto;
+    display: block;
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
 
 .gallery-hdr {
     text-align: center;
@@ -115,11 +149,11 @@ button.section-2-btn {
     display: block;
     border-radius: 7px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
-        0 2px 3px 0 rgba(0, 0, 0, .1)
+    0 2px 3px 0 rgba(0, 0, 0, .1)
 }
 
 .vid-title {
-  text-align: center;
+    text-align: center;
 }
 
 
@@ -153,6 +187,30 @@ button.section-2-btn {
     margin: 10px;
 }
 
+/*Packages*/
+
+.box {
+    text-align: center;
+    margin: 24px;
+    border-radius: 7px;
+    padding: 36px 24px 40px 24px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+        0 2px 3px 0 rgba(0, 0, 0, .1)
+}
+ul.menu {
+    list-style-type: none;
+    text-align: center;
+    list-style-position: inside;
+}
+.label-menu {
+    color: darkred;
+    font-weight: 700;
+}
+div.wrap-center {
+    text-align: center;
+}
+
 /*Modal*/
 
 .modal-logo {
@@ -172,4 +230,3 @@ button.section-2-btn {
     }
 }
 
-/*Request-Page*/

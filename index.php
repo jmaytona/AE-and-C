@@ -46,11 +46,14 @@
                         <a class="nav-link" href="#section-about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Offers</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Others</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="request-page.php">Request Order</a>
                             <a class="dropdown-item" href="package-page.php">Packages</a>
-                            <a class="dropdown-item" href="design-page.php">Designs</a>
+                            <a class="dropdown-item" href="event-page.php">Upcoming Events</a>
+                            <a class="dropdown-item" href="picture-page.php">Pictures</a>
+                            <a class="dropdown-item" href="video-page.php">Videos</a>
+                            <a class="dropdown-item" href="post-page.php">Post</a>
                         </div>
                     </li>
                 </ul>
@@ -139,7 +142,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="btnWrapper">
-                    <button type="button" class="btn btn-light btn-lg section-2-btn">See More</button>
+                    <a href="event-page.php"><button type="button" class="btn btn-light btn-lg section-2-btn">See More</button></a>
                 </div>
             </div>
         </div>
@@ -211,15 +214,15 @@
 
         <div class="row">
             <div class="col-sm-12 col-md-4">
-                <a href="video-page.php"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
+                <a href="video-page.php"><img src="assets/collage.jpg" class="img-fluid img-thumbnail gallery-img"></a>
                 <h2 class="gallery-hdr">Videos</h2>
             </div>
             <div class="col-sm-12 col-md-4">
-                <a href="picture-page.php"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
+                <a href="picture-page.php"><img src="assets/collage2.jpg" class="img-fluid img-thumbnail gallery-img"></a>
                 <h2 class="gallery-hdr">Pictures</h2>
             </div>
             <div class="col-sm-12 col-md-4">
-                <a href="post-page.php"><img src="assets/placeholder200.png" class="img-fluid img-thumbnail gallery-img"></a>
+                <a href="post-page.php"><img src="assets/collage3_2.jpg" class="img-fluid img-thumbnail gallery-img"></a>
                 <h2 class="gallery-hdr">Posts</h2>
             </div>
         </div>
@@ -246,7 +249,7 @@
                         <div class="col-sm-2">
                         </div>
                         <div class="col-sm-8">
-                            <p>AYTONA EVENTS & CATERING is dedicated to servicing customers by organizing events, occasions and providing excellent food service.</p>
+                            <p class="animate-1">AYTONA EVENTS & CATERING is dedicated to servicing customers by organizing events, occasions and providing excellent food service.</p>
                         </div>
                         <div class="col-sm-2">
                         </div>
@@ -256,7 +259,7 @@
                         <div class="col-sm-2">
                         </div>
                         <div class="col-sm-8">
-                            <p>The company aims to bring happiness to people by rejoicing life's simple and small moments such as Gender Announcements, Bridal showers, Baby showers, Monthsaries and Anniversaries, Single's Night Out, Pajamas parties, Surprise parties, 1st schooling celebrations, Graduations, Valentines Night-out, Weigh-in achievements, Successes and Milestones, and more.</p>
+                            <p class="animate-2">The company aims to bring happiness to people by rejoicing life's simple and small moments such as Gender Announcements, Bridal showers, Baby showers, Monthsaries and Anniversaries, Single's Night Out, Pajamas parties, Surprise parties, 1st schooling celebrations, Graduations, Valentines Night-out, Weigh-in achievements, Successes and Milestones, and more.</p>
                         </div>
                         <div class="col-sm-2">
                         </div>
@@ -266,7 +269,7 @@
                         <div class="col-sm-2">
                         </div>
                         <div class="col-sm-8">
-                            <p>We want the Filipino people to be able to celebrate these simple and fleeting moments and make it as memorable as it should be. This way we can improve people's social interactions and quality of life, thereby spreading positivity and lessening the growth of angst and depression that is spreading nowadays in the society.</p>
+                            <p class="animate-3">We want the Filipino people to be able to celebrate these simple and fleeting moments and make it as memorable as it should be. This way we can improve people's social interactions and quality of life, thereby spreading positivity and lessening the growth of angst and depression that is spreading nowadays in the society.</p>
                         </div>
                         <div class="col-sm-2">
                         </div>
@@ -504,9 +507,9 @@
                         <br>
                         <p class="text-center">Aytona Events & Catering Copyright &copy; 2017</p>
                         <a href="https://www.facebook.com/aytonaeventsandcatering/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -528,10 +531,6 @@
     <script>
         window.sr = ScrollReveal()
         //section-1
-        /*        sr.reveal('.navbar', {
-                    duration: 2000,
-                    origin: 'bottom'
-                });*/
         sr.reveal('.jumbotron', {
             duration: 2000,
             origin: 'bottom'
@@ -566,6 +565,29 @@
             origin: 'top',
         });
         sr.reveal('.catering-img', {
+            duration: 2000,
+            origin: 'top',
+        });
+        sr.reveal('.gallery-img', {
+            duration: 2000,
+            origin: 'top',
+        });
+        sr.reveal('.gallery-hdr', {
+            duration: 2000,
+            origin: 'top',
+        });
+        sr.reveal('.animate-1', {
+            delay: 1000,
+            duration: 2000,
+            origin: 'top',
+        });
+        sr.reveal('.animate-2', {
+            delay: 3000,
+            duration: 2000,
+            origin: 'top',
+        });
+        sr.reveal('.animate-3', {
+            delay: 5000,
             duration: 2000,
             origin: 'top',
         });
